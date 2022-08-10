@@ -1,0 +1,32 @@
+/*body{*/
+/*    background-image: linear-gradient(to right top, #aaf8cf, #b2f8c2, #bcf8b5, #c9f6a7, #d8f49a);*/
+/*    background-repeat: no-repeat;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    height: 100vh;*/
+/*}*/
+/*.question {*/
+/*    background-color: whitesmoke;*/
+/*    padding: 10px;*/
+/*    border-radius: 20px;*/
+/*}*/
+
+/*.answerContainer {*/
+/*    display: flex;*/
+/*    width: 500px;*/
+/*    justify-content: center;*/
+/*    align-items: flex-start;*/
+/*    flex-direction: column;*/
+/*    margin-top: 100px;*/
+/*    background-color: whitesmoke;*/
+/*}*/
+
+/*.answerContainerTwo {*/
+/*    display: flex;*/
+/*    width: 500px;*/
+/*    justify-content: center;*/
+/*    align-items: flex-start;*/
+
+/*    margin-top: 100px;*/
+/*}*/
