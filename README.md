@@ -24,8 +24,9 @@ This way we can render the component to the app and it will show on the screen.
 
 ### 3. Check a condition in React with JS
 In react we can make for example two variables:
-const title = "This is a title";
-const showTitle = false;
+  
+- const title = "This is a title";
+- const showTitle = false;
 
 When we wanna render this we could check the condition first by doing:
   
@@ -35,7 +36,7 @@ The question mark will check the condition of showTitle first before rendering t
 
 
 ### 4. Importing and Exporting
-When we make separated components that are not in the root App component, we will need to import the files.
+When we make separated components that are not in the root App component, we will need to import the files. 
 Also we have to export default that function to be able to import it.
 When we make a new class -> do not forget to import React from "react"!
 
