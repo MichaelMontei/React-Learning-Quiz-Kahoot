@@ -1,8 +1,7 @@
-import './Header.css';
 const Header = () => {
     return (
         <div id="test">
-            <h1>Better Than Kahoot</h1>
+            <h1 className='text-2xl'>Better Than Kahoot</h1>
         </div>
     )
 }
