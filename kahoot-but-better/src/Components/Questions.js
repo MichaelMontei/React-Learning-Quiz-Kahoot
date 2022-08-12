@@ -4,8 +4,7 @@ import React from "react";
 //We will need to know which button was clicked, and we need to shuffle the correct answer otherwise it will be always on the left top corner
 //We can shuffle elements in an array by using: https://flaviocopes.com/how-to-shuffle-array-javascript/
 
-const outputQuestions = ({ showAnswers, handleAnswer, handleNextQuestion, data : { question, correct_answer, incorrect_answers },}) => {
-    const shuffleAnswer = [correct_answer, ...incorrect_answers].sort(() => Math.random() -0.5);
+const outputQuestions = ({ showAnswers, handleAnswer, handleNextQuestion, data : { question, correct_answer, answers },}) => {
 
 return (
     <div className='flex flex-col'>
@@ -14,7 +13,7 @@ return (
         </div>
 
         <div className='grid grid-cols-2 gap-6 mt-4'>
-            {shuffleAnswer.map(answer => {
+            {answers.map(answer => {
                 const bgColor = showAnswers ? answer === correct_answer ? 'bg-green-300' : 'bg-white' : 'bg-white';
                 return (
 
